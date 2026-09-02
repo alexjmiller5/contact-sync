@@ -114,6 +114,6 @@ Manual one-time steps per machine (cannot be codified — keep documented here):
 - Grant Full Disk Access if the job reads protected data (TCC is SIP-protected)
 
 1Password side: a vault holding the items referenced in `.env.tpl`
-(`Notion Integration Secret` plus a `Notion Contact Sync ENV` item with your
+(`Notion Contact Sync Notion Integration Secret` plus a `Notion Contact Sync ENV` item with your
 Notion ids), and a service account scoped read-only to that vault whose token
 goes in the Keychain above.
